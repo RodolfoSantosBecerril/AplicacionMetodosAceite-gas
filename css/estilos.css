@@ -1,0 +1,36 @@
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight:800; 
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.171);
+}
+/*NAVBAR*/
+ 
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+ 
+ 
+  }
+  
+  /* Style the active/current link */
+  #navbar a.active {
+    border-radius: 20px;
+    background-color: dodgerblue;
+    color: white;
+  }
